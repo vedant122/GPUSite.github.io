@@ -1,0 +1,465 @@
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-size: 30px;
+}
+.menu{
+    height: 50px;
+    margin-right: 50px;
+    margin:20px;
+}
+#home{ 
+    margin:20px;
+    margin-left: 70px;
+    text-decoration: none;
+    color:#6CE9DB;
+    font-weight: bold;
+    padding :4px;
+    border-left:3px dotted pink;
+    font-family: 'Black Ops One', cursive;
+}
+
+#offers{
+    padding :4px;
+    color:#6CE9DB;
+    font-weight: bold;
+    margin:20px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-left:3px dotted pink;
+    font-family: 'Black Ops One', cursive;
+}
+
+#products{
+    padding :4px;
+    color:#6CE9DB;
+    font-weight: bold;
+    margin:20px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-left:3px dotted pink;
+    font-family: 'Black Ops One', cursive;
+}
+
+#contact_us{
+    padding :4px;
+    color:#6CE9DB;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+    border-left: 3px dotted pink;
+    font-family: 'Black Ops One', cursive;
+}
+
+#img{
+    background-color: black;
+    height: 90px;
+    margin : 10px;
+    margin-left: 60px;
+    image-resolution: 1280px;
+}
+#img{
+    cursor: pointer;
+}
+#search{
+    float:right;
+    margin-left: 350px;
+    align-items: center;
+    border: 3px solid red ;
+    animation-name: Bord;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition: 1s;
+}
+
+@keyframes Bord {
+    0%{
+        border: 3px solid red ;
+    }
+    25%{
+        border: 3px solid rgb(255, 0, 179) ;
+    }
+    50%{
+        border: 3px solid rgb(0, 255, 179) ;
+    }
+    75%{
+        border: 3px solid rgb(255, 196, 0) ;
+    }
+    100%{
+        border: 3px solid rgb(255, 238, 0) ;    }
+}
+#img1{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-color: blanchedalmond;
+    color: blanchedalmond;
+}
+#img1{
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 700px;
+}
+#i1{
+    height: 500px;
+    width:1293px;
+    border-radius: 13px;
+}
+
+#b7{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-left: -150px;
+}
+
+#b8{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-left: -50px;
+}
+#b9{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-right: -50px;
+}
+#b10{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-right: -150px;
+}
+#b11{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-right:-250px;
+}
+
+#b6{
+    transition: 1s;
+    display: flex;
+    position: absolute;
+    justify-tracks:baseline;
+    height: 15px;
+    border-radius: 13px ;
+    border-color: white;
+    background-color: black;
+    margin-top: 650px;
+    margin-right:240px;
+}
+#b{
+    display: none;
+}
+#b1{
+    display: none;
+    width: auto;
+}
+#b2{
+    display: none;
+}
+#b3{
+    display: none;
+}
+#b4{
+    display: none;
+}
+#b5{
+    display: none;
+}
+.grey{
+    margin-top: -810px;
+}
+#im1{
+    position:absolute;
+    transition-duration: 2s;
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid black;
+    width: 900px;
+	height: 400px;
+	transform: skew(-10deg);
+	background: #555;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/uPWDfMyr2MVdAG5SEWgask.jpg");
+    background-size: 900px 400px;
+    margin-left: 850px;
+    margin-top: 150px;
+    animation-name: shadow;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes shadow {
+    from{
+        box-shadow: 1px 1px 1px 3px rgb(0, 255, 179);
+    }
+    to{
+        box-shadow:12px 12px 12px 3px rgb(0, 255, 179);
+    }
+}
+
+#im1:hover{
+    transform:scale(1.2);
+    transition: 3s;
+    animation-name: shadow2;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+   }
+
+   @keyframes shadow2 {
+    from{
+        box-shadow: 1px 1px 1px 3px rgb(255, 1, 1);
+    }
+    to{
+        box-shadow:12px 12px 12px 3px rgb(255, 0, 0);
+    }
+   }
+   #active{
+       position: absolute;
+       transition-duration: 1s;
+       font-size: 25px;
+       justify-content: center;
+       margin-top :200px;
+       
+       width: 950px;
+       transform:skew(-20deg);
+       font-size: 30px;
+   }
+#bold{
+    display: flex;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -210px;
+    font-size: 100px;
+    color: rgb(0, 183, 255);
+    width: 700px;
+    font-family: 'Alfa Slab One';
+}
+#bold1{
+    position: absolute;
+    margin-top:-40px;
+    margin-left: 100px;
+    font-size: 50px;
+    width :300px;
+    color: rgb(0, 255, 242);
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+#bold2{
+    position: absolute;
+    margin-top:100px;
+    margin-left: 300px;
+    font-size: 50px;
+    width:300px;
+    color: rgb(0, 255, 242);
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+#bold3{
+    position: absolute;
+    margin-top:300px;
+    margin-left: 500px;
+    font-size: 50px;
+    width: 250px;
+    color: rgb(0, 255, 242);
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+#im12{
+    position:absolute;
+    transition-duration: 2s;
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid black;
+    width: 800px;
+	height: 400px;
+	transform: skew(10deg);
+	background: #555;
+    background-image: url("https://www.gamespot.com/a/uploads/original/1574/15747411/3728716-desktopscreenshot2020.09.01-09.28.13.62.png");
+    background-size: 800px 400px;
+    margin-left: 530px;
+    margin-top: 1000px;
+    animation-name: shadow1;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes shadow1{
+    from{
+        box-shadow: 1px 1px 1px 3px rgb(72, 255, 0);
+    }
+    to{
+        box-shadow:12px 12px 12px 3px rgb(255, 0, 0);
+    }
+}
+
+#im12:hover{
+    transform:scale(1.2) skew(20deg);
+    transition: 3s;
+}
+.first1{
+    position: absolute;
+    margin-top: -350px;
+}
+.ex1{
+    position:absolute;
+    color: #6CE9DB;
+    margin-top: 1150px;
+    margin-left: 100px;
+    width: auto;
+}
+#bold7{
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 900px;
+    width:700px;
+    margin-right: -50px;
+    font-size: 100px;
+    font-family: 'Sigmar One', cursive;
+}
+#bold4{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1000px;
+    width:400px;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+#bold5{
+    position: absolute;
+    margin-left: 1390px;
+    margin-top: 200px;
+    width:300px;
+    font-size:40px; 
+    font-family: 'Varela Round', sans-serif;
+}
+#bold6{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1170px;
+    width:300px;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+.first2{
+    margin-top: 1000px;
+}
+#im13{
+    position:absolute;
+    transition-duration: 2s;
+    border: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid black;
+    width: 1500px;
+	height: 500px;
+	background: #555;
+    background-image: url("https://static.techspot.com/articles-info/2160/images/radeon-5900-xt-7.jpg");
+    background-size: 1500px 500px;
+    margin-left: 200px;
+    margin-top: 2700px;
+    margin-bottom: 200px;
+    animation-name: shadow2;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes shadow2{
+    from{
+        box-shadow: 1px 1px 1px 3px rgb(72, 255, 0);
+    }
+    to{
+        box-shadow:12px 12px 12px 3px rgb(255, 0, 0);
+    }
+}
+
+#im13:hover{
+    transition: 3s;
+}
+.ex2{
+    position: absolute;
+    margin-top: 1100px;
+}
+#bold8{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 1000px;
+    width:600px;
+    font-size: 90px;
+    color: red;
+    font-family: 'Sigmar One', cursive;
+}
+
+#bold9{
+    position: absolute;
+    color: rgb(0, 183, 255);
+    margin-top: 350px;
+    margin-left: 150px;
+    font-size: 200px;
+    width: 600px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#bold10{
+    position: absolute;
+    color: rgb(0, 183, 255);
+    margin-top: 150px;
+    margin-left: 250px;
+    font-size: 100px;
+    width: 600px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.name13{
+    position: absolute;
+    margin-top: 3500px;
+    color: aliceblue;
+}
