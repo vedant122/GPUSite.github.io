@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue&family=Karantina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@200;400&family=Karantina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin: 0;
+  background-color: black !important;
+}
+
+td,tr,p{
+  color: #fff;
+}
+
+.title{
+  background-color: black;
+  margin: 0;
+}
+.title p{
+    color: #fff;
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 0.4vw;
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif;}
+
+.image{
+  width: 100%;
+  height: 37vw;
+}
+.a{
+  visibility: hidden;
+}
+
+.first{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  height: auto;
+  top: 0;
+  background-color: rgb(52, 51, 51);
+}
+
+
+#lenovo{
+  width: 20vw;
+  height: 15vw;
+  margin-top: 1vw;
+  margin-left: 10vw;
+  margin-bottom: 10px;
+}
+
+.text{
+  display: flex;
+  font-family: 'Karantina', cursive;
+  font-weight: 400;
+  margin-left: 35vw;
+  font-size: 4vw;
+  align-items: center;
+}
+
+
+
+
+#f{
+  width: 90vw;
+  text-align: center;
+  margin-left: 5vw;
+  table-layout: fixed;
+  margin-top: 8vw;
+  line-height: 4vh;
+  font-size: 1vw;
+  flex-wrap: wrap;
+}
+
+
+.videos{
+  margin-left: 5vw;
+  width: 90vw;
+  height: 35vw;
+}
+
+.gamingtest{
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3vw;
+  margin-top: 7vw;
+  margin-bottom: 2.5vw;
+}
+
+.rs{
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw;
+  font-family: 'Staatliches', cursive;
+  font-weight:100;
+  font-size: 2vw;
+}
+/* 
+#button{
+  position: absolute;
+  background-color: turquoise;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  padding: 0.5vw;
+  visibility: visible;
+} */
+
+
+.button1{
+  position: absolute;
+  background-color: turquoise;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  padding: 0.5vw;
+  visibility: visible;
+}
+
+
+
+
+.image3{
+  display: flex;
+  justify-content: center;
+  margin-top: 1vw;
+  padding-bottom: 5vw;
+}
+
+.image3 img{
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-left: 1vw;
+  margin-top: 0.8vw;
+}
+
+.image3 img:hover{
+  cursor: pointer;
+}
+
+.image3::before{
+  content: "Get It On";
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: #fff;
+}
+
+
+.arrow{
+  width: 0;
+  margin-left: 50vw;
+  padding-top: 1vw;
+  transform: scale(1.5);
+  padding-bottom: 1vw;
+}
+
+.arrow:hover{
+  cursor: pointer;
+}
+
+.cpu{
+  font-size: 3vw;
+  text-align: center;
+  margin-left: 0vw;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  margin-top: 7vw;
+}
+
+.gpu{
+  font-size: 3vw;
+  text-align: center;
+  margin-left: 0vw;
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  margin-top: 7vw;
+}
+
+#gpu{
+  width: 60vw !important;
+  height: 30vw !important;
+}
+
+
+#firstcpu{
+  width: 30vw;
+  height: 40vw;
+}
+
+#cpu{
+  width: 60vw;
+  height: 30vw;
+}
