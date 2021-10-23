@@ -219,3 +219,7 @@ function img14(){
         b.src="";
     }
 }
+
+function me(){
+    window.open("index1.html")
+}
