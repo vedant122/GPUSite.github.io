@@ -32,18 +32,21 @@ function run() {
 function run1() {
   document.getElementById('button1').style.visibility="hidden"
   const obj = document.getElementById("value2");
+  obj.style.color="white"
   animateValue(obj, 0, 59000,3000);   
 }
 
 function run2() {
   document.getElementById('button2').style.visibility="hidden"
   const obj = document.getElementById("value3");
+  obj.style.color="white"
   animateValue(obj, 0, 59000,3000);   
 }
 
 function run3() {
   document.getElementById('button3').style.visibility="hidden"
   const obj = document.getElementById("value4");
+  obj.style.color="white"
   animateValue(obj, 0, 54990,3000);   
 }
 
@@ -51,6 +54,7 @@ function run3() {
 function run4() {
   document.getElementById('button4').style.visibility="hidden"
   const obj = document.getElementById("value5");
+  obj.style.color="white"
   animateValue(obj, 0, 54990,3000);   
 }
 
@@ -58,6 +62,7 @@ function run4() {
 function run5() {
   document.getElementById('button5').style.visibility="hidden"
   const obj = document.getElementById("value6");
+  obj.style.color="white"
   animateValue(obj, 0, 54990,3000);   
 }
 
@@ -65,18 +70,21 @@ function run5() {
 function run6() {
   document.getElementById('button6').style.visibility="hidden"
   const obj = document.getElementById("value7");
+  obj.style.color="white"
   animateValue(obj, 0, 56990,3000);   
 }
 
 function run7() {
   document.getElementById('button7').style.visibility="hidden"
   const obj = document.getElementById("value8");
+  obj.style.color="white"
   animateValue(obj, 0, 57990,3000);   
 }
 
 function run8() {
   document.getElementById('button8').style.visibility="hidden"
   const obj = document.getElementById("value9");
+  obj.style.color="white"
   animateValue(obj, 0, 57990,3000);   
 }
 

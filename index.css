@@ -69,25 +69,27 @@ td,tr,p{
   align-items: center;
 }
 
-
+.table2{
+  overflow-x: auto;
+}
 
 
 #f{
-  width: 90vw;
+  width:90vw;
   text-align: center;
   margin-left: 5vw;
   table-layout: fixed;
   margin-top: 8vw;
   line-height: 4vh;
-  font-size: 1vw;
-  flex-wrap: wrap;
+  font-size: 20px;
 }
 
 
 .videos{
   margin-left: 5vw;
-  width: 90vw;
+  width: 70vw;
   height: 35vw;
+  margin-bottom: 3vw;
 }
 
 .gamingtest{
@@ -174,7 +176,7 @@ td,tr,p{
 .cpu{
   font-size: 3vw;
   text-align: center;
-  margin-left: 0vw;
+  margin-left: 1vw;
   font-family: 'Staatliches', cursive;
   font-weight: 400;
   margin-top: 7vw;
@@ -183,24 +185,78 @@ td,tr,p{
 .gpu{
   font-size: 3vw;
   text-align: center;
-  margin-left: 0vw;
+  margin-left: 5vw;
   font-family: 'Staatliches', cursive;
   font-weight: 400;
   margin-top: 7vw;
 }
 
 #gpu{
-  width: 60vw !important;
+  width: 70vw !important;
   height: 30vw !important;
 }
 
 
-#firstcpu{
-  width: 30vw;
-  height: 40vw;
-}
 
 #cpu{
-  width: 60vw;
+  width: 70vw;
   height: 30vw;
+}
+
+.info{
+  text-align: center;
+  line-height: 2vw;
+  font-size: 1vw;
+}
+
+.info p{
+  margin-top: 3vw;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.ranks{
+  display: flex;
+  overflow-x: auto;
+}
+
+
+
+@media screen and (max-width:1200px){
+  #f{
+    width: 1500px;
+    font-size: 2vw;
+  }
+
+  .rs{
+    margin-top: 20vw;
+    transform: scale(2.5);
+  }
+
+  .image3{
+    margin-top: 13vw;
+    transform: scale(3);
+  }
+
+
 }
