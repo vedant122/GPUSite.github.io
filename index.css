@@ -240,7 +240,6 @@ td,tr,p{
 
   #f{
     margin-left: -1vw;
-    text-align: center;
     width: 90vw;
     margin-top: 10vw;
 
@@ -249,7 +248,7 @@ td,tr,p{
 
 
   tr{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .text{
@@ -308,7 +307,22 @@ td,tr,p{
   margin-bottom: 3vw;
 }
 
+#lenovo{
+  width: 30vw;
+  height: 25vw;
+  margin-top: 1vw;
+  margin-left: 10vw;
+  margin-bottom: 10px;
+}
 
+.text{
+  display: flex;
+  font-family: 'Karantina', cursive;
+  font-weight: 400;
+  margin-left: 20vw;
+  font-size: 7vw;
+  align-items: center;
+}
 
 
 
