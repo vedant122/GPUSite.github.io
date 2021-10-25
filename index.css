@@ -70,18 +70,18 @@ td,tr,p{
 }
 
 .table2{
-  overflow-x: auto;
+margin-top: 10vw;
 }
 
 
 #f{
-  width:90vw;
-  text-align: center;
+  width: 90vw;
   margin-left: 5vw;
+  text-align: center;
   table-layout: fixed;
-  margin-top: 8vw;
-  line-height: 4vh;
-  font-size: 20px;
+  margin-top: 10vw;
+  line-height:5vh;
+  font-size: 1vw;
 }
 
 
@@ -199,19 +199,23 @@ td,tr,p{
 
 
 #cpu{
-  width: 70vw;
+  margin-left: 3vw;
+  width: 60vw;
   height: 30vw;
+  margin-bottom: 3vw;
 }
-
+/* 
 .info{
-  text-align: center;
-  line-height: 2vw;
-  font-size: 1vw;
+  margin-left: 20vw;
+  text-align: left;
+  font-size: 2vw;
+  font-weight: 700;
+  width: 70vw;
 }
 
 .info p{
   margin-top: 3vw;
-}
+} */
 
 
 
@@ -242,13 +246,22 @@ td,tr,p{
 
 
 
-@media screen and (max-width:1200px){
-  #f{
-    width: 1500px;
-    font-size: 2vw;
+
+@media screen and (max-width:1000px) {
+#f{
+  margin-top: 20vw;
+}
+
+  tr{
+    font-size: 15px;
   }
 
-  .rs{
+  .text{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  /* .rs{
     margin-top: 20vw;
     transform: scale(2.5);
   }
@@ -256,7 +269,49 @@ td,tr,p{
   .image3{
     margin-top: 13vw;
     transform: scale(3);
+  } */
+
+  .rs{
+    margin-top: 20vw;
+    font-size: 30px !important;
   }
 
+  .rs button{
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .image3 img{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .image3::before{
+    font-size: 40px;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+
+  .ranks{
+    margin-top: 10vw;
+  }
+
+  
+#gpu{
+  width: 70vw !important;
+  height: 35vw !important;
+}
+
+
+
+#cpu{
+  width: 70vw;
+  height: 35vw;
+  margin-bottom: 3vw;
+}
 
 }
+
